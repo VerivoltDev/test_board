@@ -1,0 +1,141 @@
+(footprint "VLP1-D-3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.02 2.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4f3612d9-ef63-4494-b5fe-397aa9dcc78e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VLP1-D-3"
+		(at 0 -1.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "772051fe-7f38-47b3-8fa2-4cd685329685")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53bf511b-598d-4d04-941e-bdc8638da679")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6130990a-ebea-4d6e-9998-41f16bc39bfa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9d8cee4-05b4-4aa5-8747-a5ff8d9ec1a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.2 -2.25)
+		(end 3.2 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4afdf35c-08ec-4757-9e9b-36ef37cfaec3")
+	)
+	(fp_circle
+		(center -2.35 0)
+		(end -1.6 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "bebcccc4-4049-4bdf-b34a-7981e99afdb1")
+	)
+	(fp_circle
+		(center 2.35 0)
+		(end 3.1 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "fdee8985-3c9f-4eb1-9044-e341f25fbb2c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ba4caa7-f476-4ddc-ab3b-6565c4216cbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.35 0)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cc061183-6230-4e59-bb8b-621b1f62e77e")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.35 0)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b979426c-7e9c-4ee6-904c-1d7ddc6d0c88")
+	)
+	(model "${KIPRJMOD}/../kicad-modules/shapes3d/VLP1-D-3.stp"
+		(offset
+			(xyz 0 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

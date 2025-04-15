@@ -1,0 +1,440 @@
+(footprint "TE_2438987-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "VERT USB3.2A(Shield leg solder) ")
+	(property "Reference" "J9"
+		(at -4.18294 -4.59373 180)
+		(layer "F.SilkS")
+		(uuid "a60f1b51-71eb-4df6-b8a4-d9439b960f5f")
+		(effects
+			(font
+				(size 1.001906 1.001906)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2438987-1"
+		(at 5.989865 4.718815 180)
+		(layer "F.Fab")
+		(uuid "9f8d2795-0e00-44f9-acd9-d78147ace97d")
+		(effects
+			(font
+				(size 1.000811 1.000811)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "VV_TH:AMPHENOL_GSB412137CHR"
+		(at 0.1 -5.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86bcc6c0-e417-4da4-bdd7-ddc9ecd44f93")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/usa-en/product-2438987-1.datasheet.pdf"
+		(at 0.17 -8.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af21cc44-6920-4f69-a98f-fc32fc231445")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "VERTICAL USB-A USB 3.2 Gen 1 Receptacle Connector 9 Position Through Hole"
+		(at -0.12 -7.98 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b5ed3af-9b23-416c-b646-66f0f42a9f4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Field-1" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50ae3cc1-6403-4daa-a129-d380661dc097")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "2438987-1"
+		(at 0.08 -7.28 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c564be62-83ec-4450-a000-c3fa3a432daa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.4 -3.7)
+		(end 7.4 -3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df0ff1c9-edf3-4053-a6c3-66b3465ab34e")
+	)
+	(fp_line
+		(start -7.4 -3.1)
+		(end -7.4 -3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b59677d-dd87-47e8-bf1d-5ac3a3f46d73")
+	)
+	(fp_line
+		(start -7.4 3.7)
+		(end -7.4 3.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e60e806-72e8-4867-8fb3-4fbd498375e2")
+	)
+	(fp_line
+		(start 7.4 -3.7)
+		(end 7.4 -3.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9f7d38e-4031-44a4-918b-fe1cc9b0d41f")
+	)
+	(fp_line
+		(start 7.4 3.1)
+		(end 7.4 3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "613f787d-4dce-46e2-981c-715ce8be0c36")
+	)
+	(fp_line
+		(start 7.4 3.7)
+		(end -7.4 3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06a65d13-6603-4ca7-afca-fd1b0368754e")
+	)
+	(fp_line
+		(start -7.65 -3.95)
+		(end 7.65 -3.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3194e2ee-13b8-4348-b86c-36a5ecb3c34c")
+	)
+	(fp_line
+		(start -7.65 3.95)
+		(end -7.65 -3.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "532d8fc9-abaf-4f44-a7c5-33e841ca9df3")
+	)
+	(fp_line
+		(start 7.65 -3.95)
+		(end 7.65 3.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfaa282b-a409-4463-95ca-6485d442c980")
+	)
+	(fp_line
+		(start 7.65 3.95)
+		(end -7.65 3.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15b99118-a5ac-4045-89cc-916f525a5b50")
+	)
+	(pad "1" thru_hole circle
+		(at -3.5 1 180)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "09b69e80-144a-41ed-9ff5-fcacbb3185a3")
+	)
+	(pad "2" thru_hole circle
+		(at -1 1 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e031d4a8-88e7-42a1-8137-842185d39081")
+	)
+	(pad "3" thru_hole circle
+		(at 1 1 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7256038d-f244-4a0a-aaef-367a6282fcbd")
+	)
+	(pad "4" thru_hole circle
+		(at 3.5 1 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "656e613e-1004-4850-b47b-9abe1babf8d7")
+	)
+	(pad "5" thru_hole circle
+		(at 4 -1.5 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9a58c9f2-d094-4796-abda-7881da6d9b9a")
+	)
+	(pad "6" thru_hole circle
+		(at 2 -1.5 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "eecec857-e673-42da-822e-670b351551a6")
+	)
+	(pad "7" thru_hole circle
+		(at 0 -1.5 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "13683658-614d-48cc-96ae-562504cf6f43")
+	)
+	(pad "8" thru_hole circle
+		(at -2 -1.5 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "71d7c6c1-8280-42a0-8c0a-63d1e8a66b79")
+	)
+	(pad "9" thru_hole circle
+		(at -4 -1.5 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6f6bb2a8-4184-4e38-a97d-299450b3311c")
+	)
+	(pad "10" thru_hole oval
+		(at -6.4 -2 180)
+		(size 1.4 2.7)
+		(drill oval 0.8 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f5a27c7-9ead-4c28-b747-8fe250503595")
+	)
+	(pad "10" thru_hole oval
+		(at -6.4 2 180)
+		(size 1.4 3.3)
+		(drill oval 0.8 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d658e70-6e93-4932-bcef-a4b669bd2986")
+	)
+	(pad "10" thru_hole oval
+		(at 6.4 -2 180)
+		(size 1.4 2.7)
+		(drill oval 0.8 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fbe6955-9d76-421a-a260-82404b582b61")
+	)
+	(pad "10" thru_hole oval
+		(at 6.4 2 180)
+		(size 1.4 3.3)
+		(drill oval 0.8 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e996aac-079d-4010-af80-9a03a7475f3a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "3afdff34-b732-4b92-b47e-db60e109c800")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5.5 -2.55) (xy -4.8 -2.55) (xy -4.8 -1.03) (xy -5.5 -1.03)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "9357c48f-1c0e-495c-a10a-18f1ad209fb4")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5.5 1.4) (xy -4.8 1.4) (xy -4.8 2.6) (xy -5.5 2.6)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "06756d02-ab0a-456f-b773-4472be3b1d88")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 4.8 1.4) (xy 5.5 1.4) (xy 5.5 2.6) (xy 4.8 2.6)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "0519f64f-fdc4-4503-954c-5c4d7379060a")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 4.81 -2.54) (xy 5.51 -2.54) (xy 5.51 -1.02) (xy 4.81 -1.02)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/../kicad-modules/shapes3d/GSB412137CHR.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/../kicad-modules/shapes3d/c-2438987-1-1-USB_A.stp"
+		(offset
+			(xyz 0 0 14)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

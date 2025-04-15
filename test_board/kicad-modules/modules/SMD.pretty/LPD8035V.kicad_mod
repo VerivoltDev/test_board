@@ -1,0 +1,165 @@
+(footprint "LPD8035V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "41e2bfe2-476a-4b6f-953d-361a89beaef3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LPD8035V"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "08956618-777d-4f60-9704-495e1f33b6e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LPD8035V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad205541-ab1a-4586-8719-5fda0ee31a92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0214d76-bea7-4706-9507-221e1387d345")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78fae5a9-9666-4200-a1fc-7e592180cc48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.25 -3.5)
+		(end -4.25 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "92cf3fb0-a92c-4604-9be1-05d1c1d9f234")
+	)
+	(fp_line
+		(start -4.25 3.5)
+		(end 4.25 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "376cc599-7dd6-4cd6-951e-02fff7034a39")
+	)
+	(fp_line
+		(start 4.25 -3.5)
+		(end -4.25 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fe4db78-288a-4e2c-ae3a-5da956bf168c")
+	)
+	(fp_line
+		(start 4.25 3.5)
+		(end 4.25 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a92d149c-6558-4a21-afce-03bf6d7aedcb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d881647-62ed-40d4-affd-db0cb93f41ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.82 -2.115)
+		(size 2.74 2.63)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1520912548)
+		(thermal_bridge_angle 45)
+		(uuid "cfd498d1-8cf6-46a8-ac40-08124da5f500")
+	)
+	(pad "2" smd roundrect
+		(at -2.735 2.115)
+		(size 2.74 2.63)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1520912548)
+		(thermal_bridge_angle 45)
+		(uuid "68d85c1f-a9a5-4507-afc0-5a10df2fdb40")
+	)
+	(pad "3" smd roundrect
+		(at 2.82 2.115)
+		(size 2.74 2.63)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1520912548)
+		(thermal_bridge_angle 45)
+		(uuid "6d65bc70-ce52-42a5-9f6f-450ec1cefcb8")
+	)
+	(pad "4" smd roundrect
+		(at 2.82 -2.115)
+		(size 2.74 2.63)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1520912548)
+		(thermal_bridge_angle 45)
+		(uuid "eb386caf-3e24-41ff-a680-a881738234cd")
+	)
+	(model "${KIPRJMOD}/../kicad-modules/shapes3d/Coilcraft-LPD8035V.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

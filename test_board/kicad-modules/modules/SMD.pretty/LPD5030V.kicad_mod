@@ -1,0 +1,223 @@
+(footprint "LPD5030V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "71871451-d844-45ae-9d21-b90f5e3f4eb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LPD5030V"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce7172b6-b6c1-4c6f-8b44-fcd64e76aea1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LPD5030V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2986135c-3099-42a3-b1ca-c9a3c4f65e7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3d2a5c4-0692-4457-a95a-cd109ada515d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "889f8e4f-1820-4a6b-aa71-85a414cde4bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.75 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c4f88644-1221-4b53-9e3c-d8dc2cc330f9")
+	)
+	(fp_line
+		(start -2.625 -2.625)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "773cad6f-fc4d-4014-ab9e-8daf7805a6f8")
+	)
+	(fp_line
+		(start -2.5 -2.75)
+		(end -2.75 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9de124f7-b632-4e30-afcc-e64ccf420a7d")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 -2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "67b55f2d-f6b8-437e-9deb-ed17db50a372")
+	)
+	(fp_line
+		(start -2.6 -2.6)
+		(end 2.6 -2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5019364-b2c0-4e54-8610-a1abf375cc44")
+	)
+	(fp_line
+		(start -2.6 2.2)
+		(end -2.6 -2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d5589ae-7ded-4215-9b3c-dfd25a0555ca")
+	)
+	(fp_line
+		(start -2.6 2.6)
+		(end -2.6 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b6b410e-a028-4cb0-874a-75e39b7a2b83")
+	)
+	(fp_line
+		(start 2.6 -2.6)
+		(end 2.6 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "da330439-cd47-4ff7-b5fd-c7ed64874100")
+	)
+	(fp_line
+		(start 2.6 2.6)
+		(end -2.6 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "649039be-9a62-4dc9-ba35-8a70775fbbc1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06c1bd4b-ef81-484b-a36d-2d03bb90929c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "775697e6-6a4d-4520-bd8b-a1e1c2852c09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.625 -1.625)
+		(size 1.75 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7f8234cf-ced7-4388-9986-b8c8b26b62c4")
+	)
+	(pad "2" smd rect
+		(at -1.625 1.625)
+		(size 1.75 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "26f34ddb-492c-4e32-b357-d232414b7260")
+	)
+	(pad "3" smd rect
+		(at 1.625 1.625)
+		(size 1.75 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fb864e76-a63f-43f4-974c-c2f2fcc7f09d")
+	)
+	(pad "4" smd rect
+		(at 1.625 -1.625)
+		(size 1.75 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "82a5c364-729b-4dfe-a7d3-4700125e9e00")
+	)
+	(model "${KIPRJMOD}/../kicad-modules/shapes3d/Coilcraft-LPD5030V.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
