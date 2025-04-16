@@ -12,26 +12,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 8.89 0)
+			(property "Reference" "J2"
+				(at 6.604 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "USB-A-S-X-X-VU"
-				(at -5.08 -12.7 0)
+				(at 6.604 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "USB-A-S-X-X-VU:SAMTEC_USB-A-S-X-X-VU"
-				(at 0 0 0)
+			(property "Footprint" "Connector_USB:USB_A_Molex_105057_Vertical"
+				(at -0.254 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -99,7 +99,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/USB-A-S-S-B-VU-RC/Samtec/view-part/?ref=eda"
-				(at 0 0 0)
+				(at 1.524 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -109,7 +109,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
+				(at -0.508 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -129,7 +129,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB-A-S-S-B-VU-RC/Samtec/view-part/?ref=snap"
-				(at 0 0 0)
+				(at 1.524 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -139,7 +139,7 @@
 				)
 			)
 			(property "MP" "USB-A-S-S-B-VU-RC"
-				(at 0 0 0)
+				(at 0 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -190,6 +190,8 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "USB-A-S-X-X-VU_1_0"
 				(pin power_in line
 					(at -10.16 5.08 0)
 					(length 5.08)
@@ -200,7 +202,7 @@
 							)
 						)
 					)
-					(number "01"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -218,7 +220,7 @@
 							)
 						)
 					)
-					(number "02"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -236,7 +238,7 @@
 							)
 						)
 					)
-					(number "03"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -254,7 +256,7 @@
 							)
 						)
 					)
-					(number "04"
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -272,7 +274,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -290,7 +292,7 @@
 							)
 						)
 					)
-					(number "S2"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -308,7 +310,7 @@
 							)
 						)
 					)
-					(number "S3"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -326,7 +328,7 @@
 							)
 						)
 					)
-					(number "S4"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7966,7 +7968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 107.315 17.145 0)
 			(effects
 				(font
@@ -8723,8 +8725,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD:SAMTEC_USB-A-S-X-X-VU"
-			(at 238.1885 138.43 0)
+		(property "Footprint" "Connector_USB:USB_A_Molex_105057_Vertical"
+			(at 237.9345 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +8794,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/USB-A-S-S-B-VU-RC/Samtec/view-part/?ref=eda"
-			(at 238.1885 138.43 0)
+			(at 239.7125 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +8804,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 238.1885 138.43 0)
+			(at 237.6805 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +8824,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB-A-S-S-B-VU-RC/Samtec/view-part/?ref=snap"
-			(at 238.1885 138.43 0)
+			(at 239.7125 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,7 +8834,7 @@
 			)
 		)
 		(property "MP" "USB-A-S-S-B-VU-RC"
-			(at 238.1885 138.43 0)
+			(at 238.1885 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,28 +8873,28 @@
 				(hide yes)
 			)
 		)
-		(pin "S1"
+		(pin "5"
 			(uuid "859d4f61-69e7-434e-87a0-348340b03423")
 		)
-		(pin "03"
+		(pin "5"
 			(uuid "96ab8664-4a84-42ee-aace-3b05607ded17")
 		)
-		(pin "S3"
+		(pin "5"
 			(uuid "c0f3ca35-172b-4354-a883-f668c486fc2d")
 		)
-		(pin "02"
+		(pin "5"
 			(uuid "9b9fe9d3-9469-4180-8ef9-40e28c31137b")
 		)
-		(pin "04"
+		(pin "2"
 			(uuid "ddc327d1-2c94-4e47-b6ec-5a9ced22ae8e")
 		)
-		(pin "S2"
+		(pin "3"
 			(uuid "5ea7ee07-f93c-4e93-8dd5-708a493fe070")
 		)
-		(pin "01"
+		(pin "4"
 			(uuid "069bf9f3-58f2-4b63-938e-7a6a1d088ebf")
 		)
-		(pin "S4"
+		(pin "1"
 			(uuid "f464411d-c146-44e1-b0ac-502945db9a01")
 		)
 		(instances
