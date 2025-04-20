@@ -5,6 +5,7 @@ i?=./ESP32_GENERIC_C3-20241129-v1.24.1.bin
 help: ## Prints help for targets with comments
 	@cat $(MAKEFILE_LIST) | grep -E '^[a-zA-Z_-]+:.*?## .*$$' | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 	@echo "Examples to use"
+	@echo "make putAsMain f=file.py"
 
 erase: ## Erase flash
 	esptool.py --port $p erase_flash

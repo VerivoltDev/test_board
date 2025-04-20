@@ -1,3 +1,6 @@
+'''
+Brief: Its only echo script. Note: Change Pin number
+'''
 from machine import Pin
 from time import sleep
 
