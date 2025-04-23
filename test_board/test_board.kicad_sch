@@ -4729,6 +4729,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 134.62) (xy 265.43 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686498fa-6deb-45b9-a6ad-c75c9db4cc56")
+	)
+	(wire
+		(pts
 			(xy 22.86 46.99) (xy 30.48 46.99)
 		)
 		(stroke
@@ -4846,16 +4856,6 @@
 			(type default)
 		)
 		(uuid "7a75cf83-29c6-4a39-a7c0-33fb6ebb4f58")
-	)
-	(wire
-		(pts
-			(xy 252.73 134.62) (xy 265.43 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0e0622-ec3c-47d9-80a9-56c0731de9a9")
 	)
 	(wire
 		(pts
@@ -5429,6 +5429,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 137.16) (xy 247.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b7580b-40a9-49fe-bd13-491f1664ce84")
+	)
+	(wire
+		(pts
 			(xy 227.4011 87.122) (xy 227.3935 87.122)
 		)
 		(stroke
@@ -5558,8 +5568,8 @@
 		(uuid "ffc8af2d-bbaa-4bc5-a8b9-82a7b3ec591a")
 	)
 	(rectangle
-		(start 248.92 117.094)
-		(end 284.099 163.449)
+		(start 243.84 116.84)
+		(end 281.94 163.449)
 		(stroke
 			(width 0)
 			(type default)
@@ -5825,6 +5835,7 @@
 	)
 	(label "B{slash}RS485_RX-{slash}RS232_CTS_CN2"
 		(at 129.54 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5835,6 +5846,7 @@
 	)
 	(label "GPIO_CN2_SPI_SS"
 		(at 192.532 133.985 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5845,6 +5857,7 @@
 	)
 	(label "GPIO_CN2_SPI_MISO"
 		(at 198.8238 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5855,6 +5868,7 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 254 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5865,6 +5879,7 @@
 	)
 	(label "GPIO_CN2_1"
 		(at 122.2375 114.554 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5875,6 +5890,7 @@
 	)
 	(label "VCC_5V_GPIO_FIL"
 		(at 84.1375 80.264 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5885,6 +5901,7 @@
 	)
 	(label "USB_HUB_CN2_DN"
 		(at 252.73 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5895,6 +5912,7 @@
 	)
 	(label "A_RS485_TX+{slash}RS232_RTS_CN2"
 		(at 198.8238 30.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5905,6 +5923,7 @@
 	)
 	(label "I2C_SCL_CN2"
 		(at 249.2375 94.742 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5915,6 +5934,7 @@
 	)
 	(label "GPIO_CN2_2"
 		(at 198.8238 38.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5925,6 +5945,7 @@
 	)
 	(label "GPIO_CN2_SPI_MOSI"
 		(at 192.532 139.065 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5935,6 +5956,7 @@
 	)
 	(label "485RE"
 		(at 86.6775 117.094 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5945,6 +5967,7 @@
 	)
 	(label "I2C_SDA_CN2"
 		(at 249.2375 92.202 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5955,6 +5978,7 @@
 	)
 	(label "USB_HUB_CN2_DN"
 		(at 198.8238 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5965,6 +5989,7 @@
 	)
 	(label "GPIO_CN2_2"
 		(at 126.8095 162.306 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5975,6 +6000,7 @@
 	)
 	(label "GPIO_CN2_SPI_MISO"
 		(at 192.4685 141.605 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5985,6 +6011,7 @@
 	)
 	(label "485RX"
 		(at 86.6775 114.554 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5995,6 +6022,7 @@
 	)
 	(label "A{slash}RS485_RX+{slash}RS232_RXD_CN2"
 		(at 129.54 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6005,6 +6033,7 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 41.3612 150.5407 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6015,6 +6044,7 @@
 	)
 	(label "485DE"
 		(at 86.6775 112.014 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6025,6 +6055,7 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 122.2375 104.394 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6035,6 +6066,7 @@
 	)
 	(label "485RE"
 		(at 22.86 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6045,6 +6077,7 @@
 	)
 	(label "GPIO_CN2_3"
 		(at 89.9795 162.306 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6055,6 +6088,7 @@
 	)
 	(label "GPIO_CN2_1"
 		(at 269.6263 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6065,6 +6099,7 @@
 	)
 	(label "485DE"
 		(at 77.47 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6075,6 +6110,7 @@
 	)
 	(label "ECHO_GPIO_CN2_1"
 		(at 30.7975 119.634 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6085,6 +6121,7 @@
 	)
 	(label "ECHO_GPIO_CN2_0"
 		(at 58.2295 168.656 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6095,6 +6132,7 @@
 	)
 	(label "B_RS485_TX-{slash}RS232_TXD_CN2"
 		(at 73.66 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6103,18 +6141,9 @@
 		)
 		(uuid "868abfa7-6ba1-4ef5-9245-dd91fec43422")
 	)
-	(label "VCC_5V_GPIO_FIL"
-		(at 252.73 134.62 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "8999ca36-2bd8-4cdd-a9a2-20e2c1cd52a5")
-	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 79.8195 152.146 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6125,6 +6154,7 @@
 	)
 	(label "GPIO_CN2_0"
 		(at 89.2175 106.934 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6133,8 +6163,20 @@
 		)
 		(uuid "8a12145e-0c69-494e-a2e4-a94c253de52d")
 	)
+	(label "VCC_USB_FIL"
+		(at 252.73 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f0cd24b-9f1d-4f42-ae80-29d708e8cc48")
+	)
 	(label "USB_HUB_CN2_DP"
 		(at 198.8238 25.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6145,6 +6187,7 @@
 	)
 	(label "ECHO_GPIO_CN2_1"
 		(at 95.0595 168.656 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6155,6 +6198,7 @@
 	)
 	(label "485RX"
 		(at 22.86 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6165,6 +6209,7 @@
 	)
 	(label "GPIO_CN2_0"
 		(at 112.0775 114.554 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6175,6 +6220,7 @@
 	)
 	(label "B{slash}RS485_RX-{slash}RS232_CTS_CN2"
 		(at 198.8238 33.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6185,6 +6231,7 @@
 	)
 	(label "485TX"
 		(at 77.47 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6193,8 +6240,9 @@
 		)
 		(uuid "a3a87834-50dd-47e4-a044-3e68bdf328ee")
 	)
-	(label "VCC_5V_GPIO_FIL"
+	(label "VCC_USB_FIL"
 		(at 224.79 20.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6205,6 +6253,7 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 116.6495 152.146 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6215,6 +6264,7 @@
 	)
 	(label "I2C_SCL_CN2"
 		(at 269.6263 27.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6225,6 +6275,7 @@
 	)
 	(label "B_RS485_TX-{slash}RS232_TXD_CN2"
 		(at 269.6263 30.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6235,6 +6286,7 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 195.707 119.761 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6245,6 +6297,7 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 230.5266 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6255,6 +6308,7 @@
 	)
 	(label "GPIO_CN2_SPI_SCLK"
 		(at 198.8238 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6265,6 +6319,7 @@
 	)
 	(label "GPIO_CN2_SPI_SCLK"
 		(at 192.532 136.525 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6275,6 +6330,7 @@
 	)
 	(label "GPIO_CN2_3"
 		(at 198.8238 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6285,6 +6341,7 @@
 	)
 	(label "A{slash}RS485_RX+{slash}RS232_RXD_CN2"
 		(at 269.6263 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6295,6 +6352,7 @@
 	)
 	(label "USB_HUB_CN2_DP"
 		(at 252.73 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6305,6 +6363,7 @@
 	)
 	(label "VCC_5V_GPIO_FIL"
 		(at 256.9263 20.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6315,6 +6374,7 @@
 	)
 	(label "GPIO_CN2_SPI_SS"
 		(at 269.6263 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6325,6 +6385,7 @@
 	)
 	(label "VCC_5V_GPIO_FIL"
 		(at 99.06 17.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6335,6 +6396,7 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 223.9063 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6345,6 +6407,7 @@
 	)
 	(label "485TX"
 		(at 86.6775 109.474 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6355,6 +6418,7 @@
 	)
 	(label "GPIO_CN2_0"
 		(at 269.6263 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6365,6 +6429,7 @@
 	)
 	(label "I2C_SDA_CN2"
 		(at 269.6263 25.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6375,6 +6440,7 @@
 	)
 	(label "GPIO_CN2_1"
 		(at 89.2175 104.394 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6385,6 +6451,7 @@
 	)
 	(label "GPIO_CN2_SPI_MOSI"
 		(at 269.6263 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6395,6 +6462,7 @@
 	)
 	(label "VCC_5V_GPIO_FIL"
 		(at 46.99 17.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6405,6 +6473,7 @@
 	)
 	(label "A_RS485_TX+{slash}RS232_RTS_CN2"
 		(at 73.66 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6415,6 +6484,7 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 220.345 128.0989 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6425,6 +6495,7 @@
 	)
 	(label "ECHO_GPIO_CN2_0"
 		(at 30.7975 117.094 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -7440,7 +7511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b58ba0a-e1fd-4e0a-bd0f-02d266aa090e")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR06"
 			(at 40.64 72.39 0)
 			(effects
 				(font
@@ -7490,7 +7561,7 @@
 		(instances
 			(project "test_board"
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#PWR6")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7736,7 +7807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c90a67-cb52-47cc-a329-888e0280b677")
-		(property "Reference" "#FLG3"
+		(property "Reference" "#FLG03"
 			(at 226.06 53.975 0)
 			(effects
 				(font
@@ -7786,7 +7857,7 @@
 		(instances
 			(project "test_board"
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#FLG3")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -8008,7 +8079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "655f7c0e-a799-4bc6-8702-9cd28a87f3b0")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR02"
 			(at 85.4075 95.504 0)
 			(effects
 				(font
@@ -8058,7 +8129,7 @@
 		(instances
 			(project "test_board"
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#PWR2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8075,7 +8146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65e2d384-3e55-4afa-86ca-1ef5f00d2476")
-		(property "Reference" "#PWR16"
+		(property "Reference" "#PWR016"
 			(at 69.6595 185.166 0)
 			(effects
 				(font
@@ -8125,7 +8196,7 @@
 		(instances
 			(project ""
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#PWR16")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8141,7 +8212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67ff147b-8497-4cb8-a32b-74b60dd51e2d")
-		(property "Reference" "#FLG1"
+		(property "Reference" "#FLG01"
 			(at 207.01 18.415 0)
 			(effects
 				(font
@@ -8191,7 +8262,7 @@
 		(instances
 			(project ""
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#FLG1")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8345,7 +8416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d7fcd6-a0fb-4b49-9ee2-97dbd5c59bc9")
-		(property "Reference" "#FLG2"
+		(property "Reference" "#FLG02"
 			(at 256.54 50.165 0)
 			(effects
 				(font
@@ -8395,7 +8466,76 @@
 		(instances
 			(project "test_board"
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#FLG2")
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Periph-altium-import:2_CAP")
+		(at 247.65 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79420b01-340e-45f4-a2dc-9b25d3c7caf0")
+		(property "Reference" "C6"
+			(at 248.158 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 247.904 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1861f8db-2eb0-4ae7-8b75-d690399fb893")
+		)
+		(pin "2"
+			(uuid "63842204-ba8d-434f-ae7e-27520ddf72e3")
+		)
+		(instances
+			(project "test_board"
+				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8626,7 +8766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9955a8a6-3d1c-4130-a878-6e2ae2b92784")
-		(property "Reference" "#PWR20"
+		(property "Reference" "#PWR020"
 			(at 116.6495 185.166 0)
 			(effects
 				(font
@@ -8676,7 +8816,7 @@
 		(instances
 			(project "test_board"
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#PWR20")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9470,6 +9610,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 247.65 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf48d439-7278-4191-880b-80f4485b2ab3")
+		(property "Reference" "#PWR021"
+			(at 247.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 247.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , signal ground"
+			(at 247.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2164050-89d7-4c5a-8e76-6d1f5a054226")
+		)
+		(instances
+			(project "test_board"
+				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 79.8195 178.816 0)
@@ -9480,7 +9686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0d83682-8326-4e9b-8ec9-7580b127bd5b")
-		(property "Reference" "#PWR18"
+		(property "Reference" "#PWR018"
 			(at 79.8195 185.166 0)
 			(effects
 				(font
@@ -9530,7 +9736,7 @@
 		(instances
 			(project ""
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#PWR18")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9789,7 +9995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1e378e9-f582-4be7-8321-44b78c73a596")
-		(property "Reference" "#PWR17"
+		(property "Reference" "#PWR017"
 			(at 38.0762 167.0685 0)
 			(effects
 				(font
@@ -9840,7 +10046,7 @@
 		(instances
 			(project "test_board"
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#PWR17")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10068,7 +10274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e41b75e3-f664-4721-9dce-674a9cf31ab2")
-		(property "Reference" "#PWR19"
+		(property "Reference" "#PWR019"
 			(at 106.4895 185.166 0)
 			(effects
 				(font
@@ -10118,7 +10324,7 @@
 		(instances
 			(project "test_board"
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#PWR19")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10349,7 +10555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3a6745e-61bc-41e1-ba4a-4d5a028e81a1")
-		(property "Reference" "#PWR9"
+		(property "Reference" "#PWR09"
 			(at 46.99 33.02 0)
 			(effects
 				(font
@@ -10399,7 +10605,7 @@
 		(instances
 			(project "test_board"
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
-					(reference "#PWR9")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
