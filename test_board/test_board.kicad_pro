@@ -554,7 +554,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "test-board-gerbers/",
+      "plot": "FAB",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
