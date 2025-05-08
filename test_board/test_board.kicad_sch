@@ -5683,6 +5683,16 @@
 		)
 		(uuid "0fa00b9e-6519-4c27-8671-72838e301a8b")
 	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 92.456 106.68 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "1e61836c-fa62-42df-9654-a6673857d394")
+	)
 	(text "I2C"
 		(exclude_from_sim no)
 		(at 208.026 70.866 0)
@@ -5723,6 +5733,16 @@
 		)
 		(uuid "3d2ee13d-168e-4189-af6d-4dcfb7ac1bc5")
 	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 27.686 116.84 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "41136315-6581-41ad-8c11-627346ae3ced")
+	)
 	(text "→"
 		(exclude_from_sim no)
 		(at 108.966 38.608 0)
@@ -5762,6 +5782,16 @@
 			)
 		)
 		(uuid "4da43693-ab39-4672-a436-fe9b1411a1af")
+	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 27.686 119.38 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "775b179e-3a38-4883-8a02-bd327f0f4081")
 	)
 	(text "GPIO OUT"
 		(exclude_from_sim no)
@@ -5823,6 +5853,16 @@
 		)
 		(uuid "ddc358f6-9cbe-48b9-ba24-206199dbbb79")
 	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 92.456 104.14 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "e6792ff2-3687-40f2-b65e-4a4cb24cf0dc")
+	)
 	(text "SPI"
 		(exclude_from_sim no)
 		(at 276.4208 41.783 0)
@@ -5835,7 +5875,6 @@
 	)
 	(label "B{slash}RS485_RX-{slash}RS232_CTS_CN2"
 		(at 129.54 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5846,7 +5885,6 @@
 	)
 	(label "GPIO_CN2_SPI_SS"
 		(at 192.532 133.985 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5857,7 +5895,6 @@
 	)
 	(label "GPIO_CN2_SPI_MISO"
 		(at 198.8238 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5868,7 +5905,6 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 254 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5879,7 +5915,6 @@
 	)
 	(label "GPIO_CN2_1"
 		(at 122.2375 114.554 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5890,7 +5925,6 @@
 	)
 	(label "VCC_5V_GPIO_FIL"
 		(at 84.1375 80.264 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5901,7 +5935,6 @@
 	)
 	(label "USB_HUB_CN2_DN"
 		(at 252.73 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5912,7 +5945,6 @@
 	)
 	(label "A_RS485_TX+{slash}RS232_RTS_CN2"
 		(at 198.8238 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5923,7 +5955,6 @@
 	)
 	(label "I2C_SCL_CN2"
 		(at 249.2375 94.742 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5934,7 +5965,6 @@
 	)
 	(label "GPIO_CN2_2"
 		(at 198.8238 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5945,7 +5975,6 @@
 	)
 	(label "GPIO_CN2_SPI_MOSI"
 		(at 192.532 139.065 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5956,7 +5985,6 @@
 	)
 	(label "485RE"
 		(at 86.6775 117.094 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5967,7 +5995,6 @@
 	)
 	(label "I2C_SDA_CN2"
 		(at 249.2375 92.202 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5978,7 +6005,6 @@
 	)
 	(label "USB_HUB_CN2_DN"
 		(at 198.8238 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -5989,7 +6015,6 @@
 	)
 	(label "GPIO_CN2_2"
 		(at 126.8095 162.306 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6000,7 +6025,6 @@
 	)
 	(label "GPIO_CN2_SPI_MISO"
 		(at 192.4685 141.605 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6011,7 +6035,6 @@
 	)
 	(label "485RX"
 		(at 86.6775 114.554 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6022,7 +6045,6 @@
 	)
 	(label "A{slash}RS485_RX+{slash}RS232_RXD_CN2"
 		(at 129.54 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6033,7 +6055,6 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 41.3612 150.5407 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6044,7 +6065,6 @@
 	)
 	(label "485DE"
 		(at 86.6775 112.014 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6055,7 +6075,6 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 122.2375 104.394 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6066,7 +6085,6 @@
 	)
 	(label "485RE"
 		(at 22.86 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6077,7 +6095,6 @@
 	)
 	(label "GPIO_CN2_3"
 		(at 89.9795 162.306 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6088,7 +6105,6 @@
 	)
 	(label "GPIO_CN2_1"
 		(at 269.6263 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6099,7 +6115,6 @@
 	)
 	(label "485DE"
 		(at 77.47 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6110,7 +6125,6 @@
 	)
 	(label "ECHO_GPIO_CN2_1"
 		(at 30.7975 119.634 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6121,7 +6135,6 @@
 	)
 	(label "ECHO_GPIO_CN2_0"
 		(at 58.2295 168.656 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6132,7 +6145,6 @@
 	)
 	(label "B_RS485_TX-{slash}RS232_TXD_CN2"
 		(at 73.66 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6143,7 +6155,6 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 79.8195 152.146 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6154,7 +6165,6 @@
 	)
 	(label "GPIO_CN2_0"
 		(at 89.2175 106.934 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6165,7 +6175,6 @@
 	)
 	(label "VCC_USB_FIL"
 		(at 252.73 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6176,7 +6185,6 @@
 	)
 	(label "USB_HUB_CN2_DP"
 		(at 198.8238 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6187,7 +6195,6 @@
 	)
 	(label "ECHO_GPIO_CN2_1"
 		(at 95.0595 168.656 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6198,7 +6205,6 @@
 	)
 	(label "485RX"
 		(at 22.86 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6209,7 +6215,6 @@
 	)
 	(label "GPIO_CN2_0"
 		(at 112.0775 114.554 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6220,7 +6225,6 @@
 	)
 	(label "B{slash}RS485_RX-{slash}RS232_CTS_CN2"
 		(at 198.8238 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6231,7 +6235,6 @@
 	)
 	(label "485TX"
 		(at 77.47 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6242,7 +6245,6 @@
 	)
 	(label "VCC_USB_FIL"
 		(at 224.79 20.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6253,7 +6255,6 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 116.6495 152.146 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6264,7 +6265,6 @@
 	)
 	(label "I2C_SCL_CN2"
 		(at 269.6263 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6275,7 +6275,6 @@
 	)
 	(label "B_RS485_TX-{slash}RS232_TXD_CN2"
 		(at 269.6263 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6286,7 +6285,6 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 195.707 119.761 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6297,7 +6295,6 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 230.5266 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6308,7 +6305,6 @@
 	)
 	(label "GPIO_CN2_SPI_SCLK"
 		(at 198.8238 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6319,7 +6315,6 @@
 	)
 	(label "GPIO_CN2_SPI_SCLK"
 		(at 192.532 136.525 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6330,7 +6325,6 @@
 	)
 	(label "GPIO_CN2_3"
 		(at 198.8238 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6341,7 +6335,6 @@
 	)
 	(label "A{slash}RS485_RX+{slash}RS232_RXD_CN2"
 		(at 269.6263 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6352,7 +6345,6 @@
 	)
 	(label "USB_HUB_CN2_DP"
 		(at 252.73 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6363,7 +6355,6 @@
 	)
 	(label "VCC_5V_GPIO_FIL"
 		(at 256.9263 20.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6374,7 +6365,6 @@
 	)
 	(label "GPIO_CN2_SPI_SS"
 		(at 269.6263 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6385,7 +6375,6 @@
 	)
 	(label "VCC_5V_GPIO_FIL"
 		(at 99.06 17.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6396,7 +6385,6 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 223.9063 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6407,7 +6395,6 @@
 	)
 	(label "485TX"
 		(at 86.6775 109.474 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6418,7 +6405,6 @@
 	)
 	(label "GPIO_CN2_0"
 		(at 269.6263 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6429,7 +6415,6 @@
 	)
 	(label "I2C_SDA_CN2"
 		(at 269.6263 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6440,7 +6425,6 @@
 	)
 	(label "GPIO_CN2_1"
 		(at 89.2175 104.394 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6451,7 +6435,6 @@
 	)
 	(label "GPIO_CN2_SPI_MOSI"
 		(at 269.6263 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6462,7 +6445,6 @@
 	)
 	(label "VCC_5V_GPIO_FIL"
 		(at 46.99 17.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6473,7 +6455,6 @@
 	)
 	(label "A_RS485_TX+{slash}RS232_RTS_CN2"
 		(at 73.66 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6484,7 +6465,6 @@
 	)
 	(label "VCC_3V3_GPIO_FIL"
 		(at 220.345 128.0989 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6495,7 +6475,6 @@
 	)
 	(label "ECHO_GPIO_CN2_0"
 		(at 30.7975 117.094 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)

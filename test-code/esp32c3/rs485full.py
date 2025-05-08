@@ -23,10 +23,10 @@ from machine import Pin
 from machine import UART
 from time import sleep
 
-uart1 = UART(1, baudrate=9600, tx=20, rx=21)
+uart1 = UART(1, baudrate=9600, tx=9, rx=20)
 
 DE = Pin(10, Pin.OUT)
-RE = Pin(9, Pin.OUT)
+RE = Pin(21, Pin.OUT)
 
 def on():
     DE.value(1)
