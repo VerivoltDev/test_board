@@ -3972,12 +3972,6 @@
 		(uuid "342d2d13-299c-47a0-b31b-fb5387b04589")
 	)
 	(junction
-		(at 227.4011 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bdc9df3-040f-4331-bf64-0f502b28f87d")
-	)
-	(junction
 		(at 261.112 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3994,6 +3988,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a06508a5-39d4-48f4-9337-6209d9b5171c")
+	)
+	(junction
+		(at 251.333 77.5187)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4a6d3a8-3be1-448d-8e1d-21fb414f1716")
 	)
 	(junction
 		(at 214.5665 97.282)
@@ -4079,16 +4079,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.4011 77.47) (xy 251.333 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdb0ca3-d13d-47f8-a27f-e20fcb6688f5")
-	)
-	(wire
-		(pts
 			(xy 80.3275 104.394) (xy 89.2175 104.394)
 		)
 		(stroke
@@ -4149,6 +4139,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.333 77.5187) (xy 251.333 80.2005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d59692-d24b-40d1-b196-72b95b3f303b")
+	)
+	(wire
+		(pts
 			(xy 80.3275 109.474) (xy 86.6775 109.474)
 		)
 		(stroke
@@ -4169,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.333 77.47) (xy 251.333 80.2005)
+			(xy 251.333 77.47) (xy 251.333 77.5187)
 		)
 		(stroke
 			(width 0)
@@ -6294,7 +6294,7 @@
 		(uuid "b37c0371-31f1-40a1-887d-3c4e319f205a")
 	)
 	(label "VCC_3V3_GPIO_FIL"
-		(at 230.5266 77.47 0)
+		(at 215.4555 77.479 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10073,6 +10073,71 @@
 			(project ""
 				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Periph-altium-import:GND")
+		(at 251.333 77.5187 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0192a16-ea45-424b-9c42-3fbccaf94062")
+		(property "Reference" "#PWR22"
+			(at 251.333 77.5187 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.333 71.1687 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.333 77.5187 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.333 77.5187 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.333 77.5187 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ccdea821-728d-4e02-bb1f-f9a644fec3a6")
+		)
+		(instances
+			(project "test_board"
+				(path "/0f7d8175-cf06-499b-9f57-d78aa98bdb64"
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
