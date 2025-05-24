@@ -59,8 +59,10 @@ gpio_on()
 
 while True:
     data = uart1.readline()
+    # data = uart1.read(9)
     if data == None:
         print("Empty")
     else:
         uart1.write(data)
+        print(data)
 

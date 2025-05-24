@@ -21,5 +21,8 @@ putAsMain: ## Put scritp as main.py in micropython
 	ampy -p $p put main.py
 
 t: ## Serialport init
-	# picocom $p -b 115200
-	minicom -o -b 115200 -D $p
+	picocom $p -b 115200
+	# minicom -o -b 115200 -D $p
+
+lstty: ## Detect serialport
+	ls /dev/tty*
